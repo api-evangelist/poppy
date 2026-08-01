@@ -1,7 +1,19 @@
 aid: poppy
 name: Poppy
-description: Poppy is a company surfaced as a portfolio company of anthemis, techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Poppy (poppyflowers.com) is an online, full-service wedding florist that
+  designs, delivers, and sets up personalized floral arrangements for weddings
+  across multiple US locations. Couples receive a custom floral proposal based
+  on their style preferences, with bridal and bridesmaid bouquets, boutonnieres,
+  ceremony installations, arches, reception centerpieces, and table
+  arrangements, all delivered and installed on-site by Poppy's team. The company
+  publishes pricing guidance (a $1,750 order minimum, ~$3,400 average spend, a
+  $249 deposit to secure dates) and offers interest-free monthly payment plans
+  and flexible modifications up to 60 days before the event. Poppy was surfaced
+  as a portfolio company of Anthemis and Techstars and added to the API
+  Evangelist network. As of this enrichment pass Poppy operates a
+  consumer-facing website only and publishes no public API, developer portal, or
+  technical documentation.
 url: https://raw.githubusercontent.com/api-evangelist/poppy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +22,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.poppyflowers.com/_a2/61af92ae4e1c44f4663007cd/61f0c0e97c048f99810c7f02_In-Feed%20Instagram%201.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Flowers
+- Weddings
+- Florist
+- Ecommerce
+- Delivery
+- Consumer
+- Events
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +54,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://poppyflowers.com/
+  url: https://www.poppyflowers.com/
+- type: About
+  url: https://www.poppyflowers.com/about
+- type: Support
+  url: https://www.poppyflowers.com/help/
+- type: TermsOfService
+  url: https://www.poppyflowers.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.poppyflowers.com/privacy-policy
+- type: DomainSecurity
+  url: security/poppy-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
