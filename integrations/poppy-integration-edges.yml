@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/poppy/integrations
+- https://n8n.io/integrations/poppy/
+- https://composio.dev/toolkits/poppy
+- https://monid.ai/tools/poppy
+checked:
+- https://composio.dev/toolkits/poppy
+- https://monid.ai/tools/poppy
+- https://n8n.io/integrations/poppy/
+- https://zapier.com/apps/poppy/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
